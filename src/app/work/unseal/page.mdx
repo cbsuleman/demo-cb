@@ -1,0 +1,58 @@
+import logo from '@/images/clients/unseal/logomark-dark.svg'
+import imageHero from './hero.jpg'
+import imageEmilySelman from './emily-selman.jpg'
+
+export const caseStudy = {
+  client: 'Unseal',
+  title: 'Consectetur deserunt dolore magnam!',
+  description:
+    'Officia ut, aliquam nemo dignissimos illo sequi corporis. Assumenda ad dolor reprehenderit voluptatem suscipit quos consequuntur repellat',
+  summary: [
+    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum dolor distinctio. Eos expedita nemo reprehenderit enim sint obcaecati. Consectetur ipsum aspernatur dolore, quae architecto nobis ut',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2022-10',
+  service: 'Blockchain development',
+  testimonial: {
+    author: { name: 'Emily Selman', role: 'Head of Engineering at Unseal' },
+    content:
+      'ad impedit. Ullam sapiente mollitia magni ratione, vitae optio eos laudantium asperiores non natus laborum recusandae, possimus consectetur deserunt dolore magnam corporis!',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum dolor distinctio. Eos expedita nemo reprehenderit enim sint obcaecati. Consectetur ipsum aspernatur dolore, quae architecto nobis ut animi recusandae!
+Hic, similique. Recusandae quam esse quas ducimus quae, amet optio, earum ea qui nobis facere tempora. Natus quo veritatis facere delectus dignissimos consectetur illum possimus impedit ratione, ea esse minima?
+Fugiat ullam atque explicabo rem sunt, odit, voluptatibus totam molestiae nemo quas tenetur quia quo repellendus reprehenderit neque incidunt corrupti esse blanditiis impedit suscipit aperiam amet, earum facilis iste? Velit.
+Officia ut, aliquam nemo dignissimos illo sequi corporis. Assumenda ad dolor reprehenderit voluptatem suscipit quos consequuntur repellat, eveniet odio dolorem. Consectetur accusantium et nobis soluta velit nesciunt quisquam nulla sunt?
+
+## What we did
+
+<TagList>
+  <TagListItem>Blockchain development</TagListItem>
+  <TagListItem>Backend (Solidity)</TagListItem>
+  <TagListItem>Smart contracts</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'Emily Selman', role: 'Head of Engineering at Unseal' }}
+  image={{ src: imageEmilySelman }}
+>
+  Ullam sapiente mollitia magni ratione, vitae optio eos laudantium asperiores
+  non natus laborum recusandae, possimus consectetur deserunt dolore magnam
+  corporis!
+</Blockquote>
+
+<StatList>
+  <StatListItem value="34%" label="Fewer transactions" />
+  <StatListItem value="10%" label="Slower transactions" />
+  <StatListItem value="1000ms" label="Transaction latency" />
+  <StatListItem value="3" label="Active nodes" />
+</StatList>

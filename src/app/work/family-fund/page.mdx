@@ -1,0 +1,60 @@
+import logo from '@/images/clients/family-fund/logomark-dark.svg'
+import imageHero from './hero.jpg'
+import imageDebraFiscal from './debra-fiscal.jpg'
+
+export const caseStudy = {
+  client: 'FamilyFund',
+  title: 'Lorem ipsum, dolor sit amet consectetur',
+  description:
+    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum dolor distinctio. Eos expedita nemo reprehenderit',
+  summary: [
+    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum dolor distinctio. Eos expedita nemo reprehenderit enim sint obcaecati. Consectetur ipsum aspernatur dolore, quae architecto nobis ut animi recusandae!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum dolor distinctio. Eos expedita nemo reprehenderit enim sint obcaecati. Consectetur ipsum aspernatur dolore, quae architecto nobis ut animi recusandae!',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2023-01',
+  service: 'Web development, CMS',
+  testimonial: {
+    author: { name: 'Debra Fiscal', role: 'CEO of FamilyFund' },
+    content:
+      'Modi culpa nulla quos! Facilis facere, reprehenderit incidunt omnis veritatis possimus recusandae voluptatum amet quae labore tempora, quis distinctio Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum dolor distinctio. Eos expedita nemo reprehenderit enim sint obcaecati. Consectetur ipsum aspernatur dolore, quae architecto nobis ut animi recusandae!
+Hic, similique. Recusandae quam esse quas ducimus quae, amet optio, earum ea qui nobis facere tempora. Natus quo veritatis facere delectus dignissimos consectetur illum possimus impedit ratione, ea esse minima?
+Fugiat ullam atque explicabo rem sunt, odit, voluptatibus totam molestiae nemo quas tenetur quia quo repellendus reprehenderit neque incidunt corrupti esse blanditiis impedit suscipit aperiam amet, earum facilis iste? Velit.
+Officia ut, aliquam nemo dignissimos illo sequi corporis. Assumenda ad dolor reprehenderit voluptatem suscipit quos consequuntur repellat, eveniet odio dolorem.
+
+## What we did
+
+<TagList>
+  <TagListItem>Frontend (Next.js)</TagListItem>
+  <TagListItem>Custom CMS</TagListItem>
+  <TagListItem>SEO</TagListItem>
+  <TagListItem>Infrastructure</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'Debra Fiscal', role: 'CEO of FamilyFund' }}
+  image={{ src: imageDebraFiscal }}
+>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat ipsum
+  dolor distinctio. Eos expedita nemo reprehenderit enim sint obcaecati.
+  Consectetur ipsum aspernatur dolore, quae architecto nobis ut animi
+  recusandae!
+</Blockquote>
+
+<StatList>
+  <StatListItem value="25%" label="Less traffic" />
+  <StatListItem value="10x" label="Page load times" />
+  <StatListItem value="15%" label="Higher infra costs" />
+  <StatListItem value="$1.2M" label="Legal fees" />
+</StatList>
